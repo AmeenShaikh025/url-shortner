@@ -1,0 +1,16 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "script to to add 1000 rows to the url_shortener table",
+  "main": "insertRows.js",
+  "scripts": {
+    "test": "",
+    "start": "node insertRows.js"
+  },
+  "author": "Ameen",
+  "license": "ISC",
+  "dependencies": {
+    "msnodesqlv8": "^4.5.0",
+    "mssql": "^11.0.1"
+  }
+}
